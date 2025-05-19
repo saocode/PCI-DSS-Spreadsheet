@@ -1,0 +1,97 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff7; src: url("7.ttf"); }
+.f4 { font-family:ff7,sans-serif; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page94.png"">
+<div class="txt" style="position:absolute; left:189px; top:82px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Requirements and Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:602px; top:82px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Guidance</span></div>
+<div class="txt" style="position:absolute; left:59px; top:106px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">3.5 Primary account number (PAN) is secured wherever it is stored.</span></div>
+<div class="txt" style="position:absolute; left:59px; top:129px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Requirements</span></div>
+<div class="txt" style="position:absolute; left:59px; top:152px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">3.5.1 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PAN is rendered unreadable anywhere it is stored</span></div>
+<div class="txt" style="position:absolute; left:59px; top:163px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">by using any of the following approaches:</span></div>
+<div class="txt" style="position:absolute; left:59px; top:177px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">One-way hashes based on strong cryptography of</span></div>
+<div class="txt" style="position:absolute; left:74px; top:189px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">the entire PAN.</span></div>
+<div class="txt" style="position:absolute; left:59px; top:203px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Truncation (hashing cannot be used to replace the</span></div>
+<div class="txt" style="position:absolute; left:74px; top:215px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">truncated segment of PAN).</span></div>
+<div class="txt" style="position:absolute; left:80px; top:232px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">– If hashed and truncated versions of the same</span></div>
+<div class="txt" style="position:absolute; left:94px; top:243px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PAN, or different truncation formats of the same</span></div>
+<div class="txt" style="position:absolute; left:94px; top:255px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PAN, are present in an environment, additional</span></div>
+<div class="txt" style="position:absolute; left:94px; top:266px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">controls are in place such that the different</span></div>
+<div class="txt" style="position:absolute; left:94px; top:278px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">versions cannot be correlated to reconstruct the</span></div>
+<div class="txt" style="position:absolute; left:94px; top:289px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">original PAN.</span></div>
+<div class="txt" style="position:absolute; left:59px; top:303px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Index tokens.</span></div>
+<div class="txt" style="position:absolute; left:59px; top:318px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Strong cryptography with associated key-</span></div>
+<div class="txt" style="position:absolute; left:74px; top:329px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">management processes and procedures.</span></div>
+<div class="txt" style="position:absolute; left:59px; top:352px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Customized Approach Objective</span></div>
+<div class="txt" style="position:absolute; left:59px; top:375px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Cleartext PAN cannot be read from storage media.</span></div>
+<div class="txt" style="position:absolute; left:59px; top:401px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Applicability Notes</span></div>
+<div class="txt" style="position:absolute; left:59px; top:423px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">This requirement applies to PANs stored in primary</span></div>
+<div class="txt" style="position:absolute; left:59px; top:435px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">storage (databases, or flat files such as text files</span></div>
+<div class="txt" style="position:absolute; left:59px; top:446px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">spreadsheets) as well as non-primary storage (backup,</span></div>
+<div class="txt" style="position:absolute; left:59px; top:457px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">audit logs, exception, or troubleshooting logs).</span></div>
+<div class="txt" style="position:absolute; left:59px; top:472px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">This requirement does not preclude the use of temporary</span></div>
+<div class="txt" style="position:absolute; left:59px; top:483px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">files containing cleartext PAN while encrypting and</span></div>
+<div class="txt" style="position:absolute; left:59px; top:495px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">decrypting PAN.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:129px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:298px; top:152px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">3.5.1.a </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine documentation about the system</span></div>
+<div class="txt" style="position:absolute; left:298px; top:163px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">used to render PAN unreadable, including the</span></div>
+<div class="txt" style="position:absolute; left:298px; top:174px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">vendor, type of system/process, and the encryption</span></div>
+<div class="txt" style="position:absolute; left:298px; top:186px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">algorithms (if applicable) to verify that the PAN is</span></div>
+<div class="txt" style="position:absolute; left:298px; top:197px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">rendered unreadable using any of the methods</span></div>
+<div class="txt" style="position:absolute; left:298px; top:209px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">specified in this requirement.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:232px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">3.5.1.b </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine data repositories and audit logs,</span></div>
+<div class="txt" style="position:absolute; left:298px; top:244px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">including payment application logs, to verify the</span></div>
+<div class="txt" style="position:absolute; left:298px; top:255px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PAN is rendered unreadable using any of the</span></div>
+<div class="txt" style="position:absolute; left:298px; top:267px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">methods specified in this requirement.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:290px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">3.5.1.c </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">If hashed and truncated versions of the</span></div>
+<div class="txt" style="position:absolute; left:298px; top:302px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">same PAN are present in the environment,</span></div>
+<div class="txt" style="position:absolute; left:298px; top:313px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">examine implemented controls to verify that the</span></div>
+<div class="txt" style="position:absolute; left:298px; top:324px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">hashed and truncated versions cannot be</span></div>
+<div class="txt" style="position:absolute; left:298px; top:336px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">correlated to reconstruct the original PAN.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:130px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Purpose</span></div>
+<div class="txt" style="position:absolute; left:514px; top:144px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Rendering stored PAN unreadable is a defense in</span></div>
+<div class="txt" style="position:absolute; left:514px; top:156px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">depth control designed to protect the data if an</span></div>
+<div class="txt" style="position:absolute; left:514px; top:167px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">unauthorized individual gains access to stored data by</span></div>
+<div class="txt" style="position:absolute; left:514px; top:178px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">taking advantage of a vulnerability or misconfiguration</span></div>
+<div class="txt" style="position:absolute; left:514px; top:190px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">of an entity’s primary access control.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:219px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Good Practice</span></div>
+<div class="txt" style="position:absolute; left:514px; top:233px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">It is a relatively trivial effort for a malicious individual to</span></div>
+<div class="txt" style="position:absolute; left:514px; top:244px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">reconstruct original PAN data if they have access to</span></div>
+<div class="txt" style="position:absolute; left:514px; top:256px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">both the truncated and hashed versions of a PAN.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:267px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Controls that prevent the correlation of this data will</span></div>
+<div class="txt" style="position:absolute; left:514px; top:279px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">help ensure that the original PAN remains unreadable.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:290px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Implementing keyed cryptographic hashes with</span></div>
+<div class="txt" style="position:absolute; left:514px; top:301px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">associated key management processes and</span></div>
+<div class="txt" style="position:absolute; left:514px; top:313px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">procedures in accordance with Requirement 3.5.1.1 is</span></div>
+<div class="txt" style="position:absolute; left:514px; top:324px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">a valid additional control to prevent correlation.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:339px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Further Information</span></div>
+<div class="txt" style="position:absolute; left:514px; top:353px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">For information about truncation formats and truncation</span></div>
+<div class="txt" style="position:absolute; left:514px; top:364px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">in general, see PCI SSC’s FAQs on the topic.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:379px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Sources for information about index tokens include:</span></div>
+<div class="txt" style="position:absolute; left:514px; top:393px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PCI SSC’s Tokenization Product Security</span></div>
+<div class="txt" style="position:absolute; left:528px; top:404px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Guidelines</span></div>
+<div class="txt" style="position:absolute; left:528px; top:416px;"><a href="https://www.pcisecuritystandards.org/documents/Tokenization_Product_Security_Guidelines.pdf"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">(</span></a><a href="https://www.pcisecuritystandards.org/documents/Tokenization_Product_Security_Guidelines.pdf"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,106,113,1);">https://www.pcisecuritystandards.org/documents/T</span></a></div>
+<div class="txt" style="position:absolute; left:528px; top:427px;"><a href="https://www.pcisecuritystandards.org/documents/Tokenization_Product_Security_Guidelines.pdf"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,106,113,1);">okenization_Product_Security_Guidelines.pdf</span></a><a href="https://www.pcisecuritystandards.org/documents/Tokenization_Product_Security_Guidelines.pdf"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">)</span></a></div>
+<div class="txt" style="position:absolute; left:514px; top:442px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">ANSI X9.119-2-2017: Retail Financial Services -</span></div>
+<div class="txt" style="position:absolute; left:528px; top:453px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Requirements For Protection Of Sensitive Payment</span></div>
+<div class="txt" style="position:absolute; left:528px; top:464px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Card Data - Part 2: Implementing Post-Authorization</span></div>
+<div class="txt" style="position:absolute; left:528px; top:476px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Tokenization Systems</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:686px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 90</span></div>
+</body>
+</html>

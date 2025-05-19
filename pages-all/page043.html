@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff4; src: url("4.ttf"); }
+.f4 { font-family:ff4,monospace; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page43.png"">
+<div class="txt" style="position:absolute; left:373px; top:85px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Overview</span></div>
+<div class="txt" style="position:absolute; left:77px; top:108px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Network security controls (NSCs), such as firewalls and other network security technologies, are network policy enforcement points that</span></div>
+<div class="txt" style="position:absolute; left:77px; top:121px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">typically control network traffic between two or more logical or physical network segments (or subnets) based on pre-defined </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">policies </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">or </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">rules</span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">.</span></div>
+<div class="txt" style="position:absolute; left:77px; top:143px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">NSCs examine all network traffic entering (ingress) and leaving (egress) a segment and decide, based on the policies defined, whether the</span></div>
+<div class="txt" style="position:absolute; left:77px; top:156px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">network traffic is allowed to pass or whether it should be rejected. Typically, NSCs are placed between environments with different security</span></div>
+<div class="txt" style="position:absolute; left:77px; top:169px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">needs or levels of trust, however in some environments NSCs control the traffic to individual devices irrespective of trust boundaries. Policy</span></div>
+<div class="txt" style="position:absolute; left:77px; top:181px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">enforcement generally occurs at layer 3 of the OSI model, but data present in higher layers is also frequently used to determine policy</span></div>
+<div class="txt" style="position:absolute; left:77px; top:194px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">decisions.</span></div>
+<div class="txt" style="position:absolute; left:77px; top:216px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Traditionally this function has been provided by physical firewalls; however, now this functionality may be provided by virtual devices, cloud</span></div>
+<div class="txt" style="position:absolute; left:77px; top:229px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">access controls, virtualization/container systems, and other software-defined networking technology.</span></div>
+<div class="txt" style="position:absolute; left:77px; top:252px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">NSCs are used to control traffic within an entity’s own networks—for example, between highly sensitive and less sensitive areas—and also to</span></div>
+<div class="txt" style="position:absolute; left:77px; top:264px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">protect the entity’s resources from exposure to untrusted networks. The cardholder data environment (CDE) is an example of a more sensitive</span></div>
+<div class="txt" style="position:absolute; left:77px; top:277px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">area within an entity’s network. Often, seemingly insignificant paths to and from untrusted networks can provide unprotected pathways into</span></div>
+<div class="txt" style="position:absolute; left:77px; top:290px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">sensitive systems. NSCs provide a key protection mechanism for any computer network.</span></div>
+<div class="txt" style="position:absolute; left:77px; top:312px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Common examples of untrusted networks include the Internet, dedicated connections such as business-to-business communication channels,</span></div>
+<div class="txt" style="position:absolute; left:77px; top:325px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">wireless networks, carrier networks (such as cellular), third-party networks, and other sources outside the entity’s ability to control. Furthermore,</span></div>
+<div class="txt" style="position:absolute; left:77px; top:338px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">untrusted networks also include corporate networks that are considered out-of-scope for PCI DSS, because they are not assessed, and</span></div>
+<div class="txt" style="position:absolute; left:77px; top:350px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">therefore must be treated as untrusted because the existence of security controls has not been verified. While an entity may consider an</span></div>
+<div class="txt" style="position:absolute; left:77px; top:363px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">internal network to be trusted from an infrastructure perspective, if a network is out of scope for PCI DSS, that network must be considered</span></div>
+<div class="txt" style="position:absolute; left:77px; top:376px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">untrusted for PCI DSS.</span></div>
+<div class="txt" style="position:absolute; left:77px; top:394px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Refer to </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,106,113,1);">Appendix G </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">for definitions of PCI DSS terms.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:686px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 39</span></div>
+</body>
+</html>

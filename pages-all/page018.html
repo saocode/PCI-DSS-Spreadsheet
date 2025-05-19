@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff6; src: url("6.ttf"); }
+.f4 { font-family:ff6,sans-serif; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page18.png"">
+<div class="txt" style="position:absolute; left:72px; top:77px;"><span class="f3" style="font-size:14px;vertical-align:baseline;color:rgba(0,0,0,1);">Wireless</span></div>
+<div class="txt" style="position:absolute; left:90px; top:99px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">If wireless technology is used to store, process, or transmit account data (for example, wireless point-of-sale devices), or if a wireless local</span></div>
+<div class="txt" style="position:absolute; left:89px; top:112px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">area network (WLAN) is part of or connected to the CDE, the PCI DSS requirements and testing procedures for securing wireless</span></div>
+<div class="txt" style="position:absolute; left:89px; top:125px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">environments apply and must be performed.</span></div>
+<div class="txt" style="position:absolute; left:89px; top:143px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Rogue wireless detection must be performed per PCI DSS Requirement 11.2.1 even when wireless is not used within the CDE and the entity</span></div>
+<div class="txt" style="position:absolute; left:89px; top:156px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">has a policy that prohibits the use of wireless technology within its environment. This is because of the ease with which a wireless access</span></div>
+<div class="txt" style="position:absolute; left:89px; top:169px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">point can be attached to a network, the difficulty in detecting its presence, and the increased risk presented by unauthorized wireless devices.</span></div>
+<div class="txt" style="position:absolute; left:89px; top:187px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Before wireless technology is implemented, an entity should carefully evaluate the need for the technology against the risk. Consider</span></div>
+<div class="txt" style="position:absolute; left:89px; top:200px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">deploying wireless technology only for non-sensitive data transmission.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:231px;"><span class="f3" style="font-size:14px;vertical-align:baseline;color:rgba(0,0,0,1);">When Cardholder Data and/or Sensitive Authentication Data is Accidentally Received via an</span></div>
+<div class="txt" style="position:absolute; left:71px; top:249px;"><span class="f3" style="font-size:14px;vertical-align:baseline;color:rgba(0,0,0,1);">Unintended Channel</span></div>
+<div class="txt" style="position:absolute; left:90px; top:272px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">There could be occurrences where an entity receives cardholder data and/or sensitive authentication data unsolicited via an insecure</span></div>
+<div class="txt" style="position:absolute; left:90px; top:285px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">communication channel that was not intended for the purpose of receiving sensitive data. In this situation, the entity can choose to either:</span></div>
+<div class="txt" style="position:absolute; left:103px; top:303px;"><span class="f4" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);"> </span><span class="f1" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);">Include the channel in the scope of their CDE and secure it according to PCI DSS</span></div>
+<div class="txt" style="position:absolute; left:108px; top:322px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Or</span></div>
+<div class="txt" style="position:absolute; left:103px; top:340px;"><span class="f4" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);"> </span><span class="f1" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);">Securely delete the data and implement measures to prevent the channel from being used in the future for sending such data.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:372px;"><span class="f3" style="font-size:14px;vertical-align:baseline;color:rgba(0,0,0,1);">Encrypted Cardholder Data and Impact on PCI DSS Scope</span></div>
+<div class="txt" style="position:absolute; left:90px; top:395px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Encryption of cardholder data with strong cryptography is an acceptable method of rendering the data unreadable according to PCI DSS</span></div>
+<div class="txt" style="position:absolute; left:90px; top:408px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Requirement 3.5. However, encryption alone is generally insufficient to render the cardholder data out of scope for PCI DSS and does not</span></div>
+<div class="txt" style="position:absolute; left:90px; top:420px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">remove the need for PCI DSS in that environment. The entity’s environment is still in scope for PCI DSS due to the presence of cardholder</span></div>
+<div class="txt" style="position:absolute; left:90px; top:433px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">data. For example, for a merchant card-present environment, there is physical access to the payment cards to complete a transaction and</span></div>
+<div class="txt" style="position:absolute; left:90px; top:446px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">there may also be paper reports or receipts with cardholder data. Similarly, in merchant card-not-present environments, such as mail-</span></div>
+<div class="txt" style="position:absolute; left:90px; top:458px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">order/telephone-order and e-commerce, payment card details are provided via channels that need to be evaluated and protected according to</span></div>
+<div class="txt" style="position:absolute; left:90px; top:471px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PCI DSS.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:490px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">The following are each in scope for PCI DSS:</span></div>
+<div class="txt" style="position:absolute; left:100px; top:508px;"><span class="f4" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);"> </span><span class="f1" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);">Systems performing encryption and/or decryption of cardholder data, and systems performing key management functions,</span></div>
+<div class="txt" style="position:absolute; left:100px; top:526px;"><span class="f4" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);"> </span><span class="f1" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);">Encrypted cardholder data that is not isolated from the encryption and decryption and key management processes,</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:686px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 14</span></div>
+</body>
+</html>

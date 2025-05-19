@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff7; src: url("7.ttf"); }
+.f4 { font-family:ff7,sans-serif; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page292.png"">
+<div class="txt" style="position:absolute; left:198px; top:83px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Requirements and Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:591px; top:83px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Guidance</span></div>
+<div class="txt" style="position:absolute; left:78px; top:108px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">11.6 Unauthorized changes on payment pages are detected and responded to.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:131px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Requirements</span></div>
+<div class="txt" style="position:absolute; left:78px; top:154px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">11.6.1 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">A change- and tamper-detection mechanism</span></div>
+<div class="txt" style="position:absolute; left:78px; top:165px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">is deployed as follows:</span></div>
+<div class="txt" style="position:absolute; left:78px; top:180px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">To alert personnel to unauthorized modification</span></div>
+<div class="txt" style="position:absolute; left:92px; top:191px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">(including indicators of compromise, changes,</span></div>
+<div class="txt" style="position:absolute; left:92px; top:202px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">additions, and deletions) to the security-</span></div>
+<div class="txt" style="position:absolute; left:92px; top:214px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">impacting HTTP headers and the script contents</span></div>
+<div class="txt" style="position:absolute; left:92px; top:225px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">of payment pages as received by the consumer</span></div>
+<div class="txt" style="position:absolute; left:92px; top:236px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">browser.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:251px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">The mechanism is configured to evaluate the</span></div>
+<div class="txt" style="position:absolute; left:92px; top:262px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">received HTTP headers and payment pages.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:277px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">The mechanism functions are performed as</span></div>
+<div class="txt" style="position:absolute; left:92px; top:288px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">follows:</span></div>
+<div class="txt" style="position:absolute; left:99px; top:305px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">– At least weekly</span></div>
+<div class="txt" style="position:absolute; left:90px; top:320px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">OR</span></div>
+<div class="txt" style="position:absolute; left:99px; top:337px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">– Periodically (at the frequency defined in the</span></div>
+<div class="txt" style="position:absolute; left:114px; top:348px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">entity’s targeted risk analysis, which is</span></div>
+<div class="txt" style="position:absolute; left:114px; top:360px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">performed according to all elements</span></div>
+<div class="txt" style="position:absolute; left:114px; top:371px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">specified in Requirement 12.3.1).</span></div>
+<div class="txt" style="position:absolute; left:78px; top:394px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Customized Approach Objective</span></div>
+<div class="txt" style="position:absolute; left:78px; top:417px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">E-commerce skimming code or techniques cannot</span></div>
+<div class="txt" style="position:absolute; left:78px; top:428px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">be added to payment pages as received by the</span></div>
+<div class="txt" style="position:absolute; left:78px; top:440px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">consumer browser without a timely alert being</span></div>
+<div class="txt" style="position:absolute; left:78px; top:451px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">generated. Anti-skimming measures cannot be</span></div>
+<div class="txt" style="position:absolute; left:78px; top:462px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">removed from payment pages without a prompt alert</span></div>
+<div class="txt" style="position:absolute; left:78px; top:474px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">being generated.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:488px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">(continued on next page)</span></div>
+<div class="txt" style="position:absolute; left:298px; top:131px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:298px; top:154px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">11.6.1.a </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine system settings, monitored</span></div>
+<div class="txt" style="position:absolute; left:298px; top:165px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">payment pages, and results from monitoring</span></div>
+<div class="txt" style="position:absolute; left:298px; top:177px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">activities to verify the use of a change- and tamper-</span></div>
+<div class="txt" style="position:absolute; left:298px; top:188px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">detection mechanism.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:212px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">11.6.1.b </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine configuration settings to verify</span></div>
+<div class="txt" style="position:absolute; left:298px; top:223px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">the mechanism is configured in accordance with all</span></div>
+<div class="txt" style="position:absolute; left:298px; top:234px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">elements specified in this requirement.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:258px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">11.6.1.c </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">If the mechanism functions are performed</span></div>
+<div class="txt" style="position:absolute; left:298px; top:269px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">at an entity-defined frequency, examine the entity’s</span></div>
+<div class="txt" style="position:absolute; left:298px; top:281px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">targeted risk analysis for determining the frequency</span></div>
+<div class="txt" style="position:absolute; left:298px; top:292px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">to verify the risk analysis was performed in</span></div>
+<div class="txt" style="position:absolute; left:298px; top:304px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">accordance with all elements specified at</span></div>
+<div class="txt" style="position:absolute; left:298px; top:315px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Requirement 12.3.1.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:339px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">11.6.1.d </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine configuration settings and</span></div>
+<div class="txt" style="position:absolute; left:298px; top:350px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">interview personnel to verify the mechanism</span></div>
+<div class="txt" style="position:absolute; left:298px; top:361px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">functions are performed either:</span></div>
+<div class="txt" style="position:absolute; left:298px; top:376px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">At least weekly</span></div>
+<div class="txt" style="position:absolute; left:314px; top:390px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">OR</span></div>
+<div class="txt" style="position:absolute; left:298px; top:405px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">At the frequency defined in the entity’s targeted</span></div>
+<div class="txt" style="position:absolute; left:312px; top:416px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">risk analysis performed for this requirement.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:132px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Purpose</span></div>
+<div class="txt" style="position:absolute; left:514px; top:146px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Many web pages now rely on assembling objects,</span></div>
+<div class="txt" style="position:absolute; left:514px; top:158px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">including active content (primarily JavaScript),</span></div>
+<div class="txt" style="position:absolute; left:514px; top:169px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">from multiple internet locations. Additionally, the</span></div>
+<div class="txt" style="position:absolute; left:514px; top:181px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">content of many web pages is defined using</span></div>
+<div class="txt" style="position:absolute; left:514px; top:192px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">content management and tag management</span></div>
+<div class="txt" style="position:absolute; left:514px; top:203px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">systems that may not be possible to monitor using</span></div>
+<div class="txt" style="position:absolute; left:514px; top:215px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">traditional change detection mechanisms.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:229px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Therefore, the only place to detect changes or</span></div>
+<div class="txt" style="position:absolute; left:514px; top:240px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">indicators of malicious activity is in the consumer</span></div>
+<div class="txt" style="position:absolute; left:514px; top:252px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">browser as the page is constructed and all</span></div>
+<div class="txt" style="position:absolute; left:514px; top:263px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">JavaScript interpreted.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:278px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">By comparing the current version of the HTTP</span></div>
+<div class="txt" style="position:absolute; left:514px; top:289px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">header and the active content of payment pages</span></div>
+<div class="txt" style="position:absolute; left:514px; top:300px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">as received by the consumer browser with prior or</span></div>
+<div class="txt" style="position:absolute; left:514px; top:312px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">known versions, it is possible to detect</span></div>
+<div class="txt" style="position:absolute; left:514px; top:323px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">unauthorized changes that may indicate a</span></div>
+<div class="txt" style="position:absolute; left:514px; top:334px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">skimming attack, or an attempt to disable a</span></div>
+<div class="txt" style="position:absolute; left:514px; top:346px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">control designed to protect against, or to detect,</span></div>
+<div class="txt" style="position:absolute; left:514px; top:357px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">skimming attacks.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:372px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Additionally, by looking for known indicators of</span></div>
+<div class="txt" style="position:absolute; left:514px; top:383px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">compromise and script elements or behavior</span></div>
+<div class="txt" style="position:absolute; left:514px; top:395px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">typical of skimmers, suspicious alerts can be</span></div>
+<div class="txt" style="position:absolute; left:514px; top:406px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">raised.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:420px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">(continued on next page)</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:681px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 288</span></div>
+</body>
+</html>

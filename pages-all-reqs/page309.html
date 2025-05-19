@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff7; src: url("7.ttf"); }
+.f4 { font-family:ff7,sans-serif; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page309.png"">
+<div class="txt" style="position:absolute; left:198px; top:85px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Requirements and Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:78px; top:111px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Requirements</span></div>
+<div class="txt" style="position:absolute; left:298px; top:111px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:78px; top:133px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">12.5.2 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PCI DSS scope is documented and</span></div>
+<div class="txt" style="position:absolute; left:78px; top:145px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">confirmed by the entity at least once every 12</span></div>
+<div class="txt" style="position:absolute; left:78px; top:156px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">months and upon significant change to the in-scope</span></div>
+<div class="txt" style="position:absolute; left:78px; top:168px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">environment. At a minimum, the scoping validation</span></div>
+<div class="txt" style="position:absolute; left:78px; top:179px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">includes:</span></div>
+<div class="txt" style="position:absolute; left:78px; top:193px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Identifying all data flows for the various payment</span></div>
+<div class="txt" style="position:absolute; left:92px; top:205px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">stages (for example, authorization, capture</span></div>
+<div class="txt" style="position:absolute; left:92px; top:216px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">settlement, chargebacks, and refunds) and</span></div>
+<div class="txt" style="position:absolute; left:92px; top:228px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">acceptance channels (for example, card-</span></div>
+<div class="txt" style="position:absolute; left:92px; top:239px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">present, card-not-present, and e-commerce).</span></div>
+<div class="txt" style="position:absolute; left:78px; top:253px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Updating all data-flow diagrams per</span></div>
+<div class="txt" style="position:absolute; left:92px; top:265px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Requirement 1.2.4.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:279px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Identifying all locations where account data is</span></div>
+<div class="txt" style="position:absolute; left:92px; top:290px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">stored, processed, and transmitted, including but</span></div>
+<div class="txt" style="position:absolute; left:92px; top:302px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">not limited to: 1) any locations outside of the</span></div>
+<div class="txt" style="position:absolute; left:92px; top:313px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">currently defined CDE, 2) applications that</span></div>
+<div class="txt" style="position:absolute; left:92px; top:325px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">process CHD, 3) transmissions between</span></div>
+<div class="txt" style="position:absolute; left:92px; top:336px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">systems and networks, and 4) file backups.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:350px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Identifying all system components in the CDE,</span></div>
+<div class="txt" style="position:absolute; left:92px; top:362px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">connected to the CDE, or that could impact</span></div>
+<div class="txt" style="position:absolute; left:92px; top:373px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">security of the CDE.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:387px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Identifying all segmentation controls in use and</span></div>
+<div class="txt" style="position:absolute; left:92px; top:399px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">the environment(s) from which the CDE is</span></div>
+<div class="txt" style="position:absolute; left:92px; top:410px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">segmented, including justification for</span></div>
+<div class="txt" style="position:absolute; left:92px; top:422px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">environments being out of scope.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:436px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Identifying all connections from third-party</span></div>
+<div class="txt" style="position:absolute; left:92px; top:447px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">entities with access to the CDE.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:462px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Confirming that all identified data flows, account</span></div>
+<div class="txt" style="position:absolute; left:92px; top:473px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">data, system components, segmentation</span></div>
+<div class="txt" style="position:absolute; left:92px; top:485px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">controls, and connections from third parties with</span></div>
+<div class="txt" style="position:absolute; left:92px; top:496px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">access to the CDE are included in scope.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:133px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">12.5.2.a </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine documented results of scope</span></div>
+<div class="txt" style="position:absolute; left:298px; top:145px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">reviews and interview personnel to verify that the</span></div>
+<div class="txt" style="position:absolute; left:298px; top:156px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">reviews are performed:</span></div>
+<div class="txt" style="position:absolute; left:298px; top:171px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">At least once every 12 months.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:185px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">After significant changes to the in-scope</span></div>
+<div class="txt" style="position:absolute; left:312px; top:196px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">environment.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:220px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">12.5.2.b </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine documented results of scope</span></div>
+<div class="txt" style="position:absolute; left:298px; top:231px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">reviews performed by the entity to verify that PCI</span></div>
+<div class="txt" style="position:absolute; left:298px; top:243px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">DSS scoping confirmation activity includes all</span></div>
+<div class="txt" style="position:absolute; left:298px; top:254px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">elements specified in this requirement.</span></div>
+<div class="txt" style="position:absolute; left:591px; top:85px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Guidance</span></div>
+<div class="txt" style="position:absolute; left:514px; top:112px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Purpose</span></div>
+<div class="txt" style="position:absolute; left:514px; top:126px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Frequent validation of PCI DSS scope helps to</span></div>
+<div class="txt" style="position:absolute; left:514px; top:137px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">ensure PCI DSS scope remains up to date and</span></div>
+<div class="txt" style="position:absolute; left:514px; top:149px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">aligned with changing business objectives, and</span></div>
+<div class="txt" style="position:absolute; left:514px; top:160px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">therefore that security controls are protecting all</span></div>
+<div class="txt" style="position:absolute; left:514px; top:172px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">appropriate system components.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:186px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Good Practice</span></div>
+<div class="txt" style="position:absolute; left:514px; top:200px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Accurate scoping involves critically evaluating the</span></div>
+<div class="txt" style="position:absolute; left:514px; top:212px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">CDE and all connected system components to</span></div>
+<div class="txt" style="position:absolute; left:514px; top:223px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">determine the necessary coverage for PCI DSS</span></div>
+<div class="txt" style="position:absolute; left:514px; top:235px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">requirements. Scoping activities, including careful</span></div>
+<div class="txt" style="position:absolute; left:514px; top:246px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">analysis and ongoing monitoring, help to ensure</span></div>
+<div class="txt" style="position:absolute; left:514px; top:257px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">that in-scope systems are appropriately secured.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:269px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">When documenting account data locations, the</span></div>
+<div class="txt" style="position:absolute; left:514px; top:280px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">entity can consider creating a table or</span></div>
+<div class="txt" style="position:absolute; left:514px; top:291px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">spreadsheet that includes the following</span></div>
+<div class="txt" style="position:absolute; left:514px; top:303px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">information:</span></div>
+<div class="txt" style="position:absolute; left:516px; top:317px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Data stores (databases, files, cloud, etc.),</span></div>
+<div class="txt" style="position:absolute; left:531px; top:329px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">including the purpose of data storage and the</span></div>
+<div class="txt" style="position:absolute; left:531px; top:340px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">retention period,</span></div>
+<div class="txt" style="position:absolute; left:516px; top:354px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Which CHD elements are stored (PAN, expiry</span></div>
+<div class="txt" style="position:absolute; left:531px; top:366px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">date, cardholder name, and/or any elements</span></div>
+<div class="txt" style="position:absolute; left:531px; top:377px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">of SAD prior to completion of authorization),</span></div>
+<div class="txt" style="position:absolute; left:516px; top:391px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">How data is secured (type of encryption and</span></div>
+<div class="txt" style="position:absolute; left:531px; top:403px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">strength, hashing algorithm and strength,</span></div>
+<div class="txt" style="position:absolute; left:531px; top:414px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">truncation, tokenization),</span></div>
+<div class="txt" style="position:absolute; left:516px; top:429px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">How access to data stores is logged,</span></div>
+<div class="txt" style="position:absolute; left:531px; top:440px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">including a description of logging</span></div>
+<div class="txt" style="position:absolute; left:531px; top:451px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">mechanism(s) in use (enterprise solution,</span></div>
+<div class="txt" style="position:absolute; left:531px; top:463px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">application level, operating system level,</span></div>
+<div class="txt" style="position:absolute; left:531px; top:474px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">etc.).</span></div>
+<div class="txt" style="position:absolute; left:514px; top:489px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">(continued on next page)</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:681px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 305</span></div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff7; src: url("7.ttf"); }
+.f4 { font-family:ff7,sans-serif; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page59.png"">
+<div class="txt" style="position:absolute; left:198px; top:85px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Requirements and Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:591px; top:85px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Guidance</span></div>
+<div class="txt" style="position:absolute; left:78px; top:111px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Requirements</span></div>
+<div class="txt" style="position:absolute; left:78px; top:134px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">1.4.2 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Inbound traffic from untrusted networks to</span></div>
+<div class="txt" style="position:absolute; left:78px; top:145px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">trusted networks is restricted to:</span></div>
+<div class="txt" style="position:absolute; left:78px; top:160px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Communications with system components that</span></div>
+<div class="txt" style="position:absolute; left:92px; top:171px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">are authorized to provide publicly accessible</span></div>
+<div class="txt" style="position:absolute; left:92px; top:183px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">services, protocols, and ports.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:197px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Stateful responses to communications initiated</span></div>
+<div class="txt" style="position:absolute; left:92px; top:208px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">by system components in a trusted network.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:223px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">All other traffic is denied.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:246px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Customized Approach Objective</span></div>
+<div class="txt" style="position:absolute; left:78px; top:269px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Only traffic that is authorized or that is a response to</span></div>
+<div class="txt" style="position:absolute; left:78px; top:280px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">a system component in the trusted network can</span></div>
+<div class="txt" style="position:absolute; left:78px; top:291px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">enter a trusted network from an untrusted network.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:314px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Applicability Notes</span></div>
+<div class="txt" style="position:absolute; left:78px; top:337px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">The intent of this requirement is to address</span></div>
+<div class="txt" style="position:absolute; left:78px; top:349px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">communication sessions between trusted and</span></div>
+<div class="txt" style="position:absolute; left:78px; top:360px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">untrusted networks, rather than the specifics of</span></div>
+<div class="txt" style="position:absolute; left:78px; top:372px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">protocols.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:386px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">This requirement does not limit the use of UDP or</span></div>
+<div class="txt" style="position:absolute; left:78px; top:397px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">other connectionless network protocols if state is</span></div>
+<div class="txt" style="position:absolute; left:78px; top:409px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">maintained by the NSC.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:111px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:298px; top:134px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">1.4.2 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine vendor documentation and</span></div>
+<div class="txt" style="position:absolute; left:298px; top:145px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">configurations of NSCs to verify that inbound traffic</span></div>
+<div class="txt" style="position:absolute; left:298px; top:157px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">from untrusted networks to trusted networks is</span></div>
+<div class="txt" style="position:absolute; left:298px; top:168px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">restricted in accordance with all elements specified</span></div>
+<div class="txt" style="position:absolute; left:298px; top:180px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">in this requirement.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:112px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Purpose</span></div>
+<div class="txt" style="position:absolute; left:514px; top:126px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Ensuring that public access to a system</span></div>
+<div class="txt" style="position:absolute; left:514px; top:137px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">component is specifically authorized reduces the</span></div>
+<div class="txt" style="position:absolute; left:514px; top:149px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">risk of system components being unnecessarily</span></div>
+<div class="txt" style="position:absolute; left:514px; top:160px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">exposed to untrusted networks.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:178px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Good Practice</span></div>
+<div class="txt" style="position:absolute; left:514px; top:192px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">System components that provide publicly</span></div>
+<div class="txt" style="position:absolute; left:514px; top:203px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">accessible services, such as email, web, and</span></div>
+<div class="txt" style="position:absolute; left:514px; top:215px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">DNS servers, are the most vulnerable to threats</span></div>
+<div class="txt" style="position:absolute; left:514px; top:226px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">originating from untrusted networks.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:241px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Ideally, such systems are placed within a</span></div>
+<div class="txt" style="position:absolute; left:514px; top:252px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">dedicated trusted network that is public facing (for</span></div>
+<div class="txt" style="position:absolute; left:514px; top:263px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">example, a DMZ) but that is separated via NSCs</span></div>
+<div class="txt" style="position:absolute; left:514px; top:275px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">from more sensitive internal systems, which helps</span></div>
+<div class="txt" style="position:absolute; left:514px; top:286px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">protect the rest of the network in the event these</span></div>
+<div class="txt" style="position:absolute; left:514px; top:297px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">externally accessible systems are compromised.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:309px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">This functionality is intended to prevent malicious</span></div>
+<div class="txt" style="position:absolute; left:514px; top:320px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">actors from accessing the organization's internal</span></div>
+<div class="txt" style="position:absolute; left:514px; top:332px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">network from the Internet, or from using services,</span></div>
+<div class="txt" style="position:absolute; left:514px; top:343px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">protocols, or ports in an unauthorized manner.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:357px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Where this functionality is provided as a built-in</span></div>
+<div class="txt" style="position:absolute; left:514px; top:369px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">feature of an NSC, the entity should ensure that</span></div>
+<div class="txt" style="position:absolute; left:514px; top:380px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">its configurations do not result in the functionality</span></div>
+<div class="txt" style="position:absolute; left:514px; top:391px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">being disabled or bypassed.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:409px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Definitions</span></div>
+<div class="txt" style="position:absolute; left:514px; top:423px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Maintaining the "state" (or status) for each</span></div>
+<div class="txt" style="position:absolute; left:514px; top:435px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">connection into a network means the NSC</span></div>
+<div class="txt" style="position:absolute; left:514px; top:446px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">“knows” whether an apparent response to a</span></div>
+<div class="txt" style="position:absolute; left:514px; top:457px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">previous connection is a valid, authorized</span></div>
+<div class="txt" style="position:absolute; left:514px; top:469px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">response (since the NSC retains each</span></div>
+<div class="txt" style="position:absolute; left:514px; top:480px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">connection’s status) or whether it is malicious</span></div>
+<div class="txt" style="position:absolute; left:514px; top:492px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">traffic trying to fool the NSC into allowing the</span></div>
+<div class="txt" style="position:absolute; left:514px; top:503px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">connection.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:686px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 55</span></div>
+</body>
+</html>

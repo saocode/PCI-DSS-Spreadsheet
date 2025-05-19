@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff5; src: url("5.ttf"); }
+.f4 { font-family:ff5,sans-serif; font-weight:bold; font-style:italic; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page373.png"">
+<div class="txt" style="position:absolute; left:72px; top:83px;"><span class="f3" style="font-size:15px;vertical-align:baseline;color:rgba(0,0,0,1);">Appendix B Compensating Controls</span></div>
+<div class="txt" style="position:absolute; left:90px; top:112px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Compensating controls may be considered when an entity cannot meet a PCI DSS requirement explicitly as stated, due to legitimate and</span></div>
+<div class="txt" style="position:absolute; left:90px; top:125px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">documented technical or business constraints but has sufficiently mitigated the risk associated with not meeting the requirement through</span></div>
+<div class="txt" style="position:absolute; left:90px; top:137px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">implementation of other, or compensating, controls.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:156px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Compensating controls must satisfy the following criteria:</span></div>
+<div class="txt" style="position:absolute; left:99px; top:175px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">1. </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Meet the intent and rigor of the original PCI DSS requirement.</span></div>
+<div class="txt" style="position:absolute; left:99px; top:193px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">2. </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Provide a similar level of defense as the original PCI DSS requirement, such that the compensating control sufficiently offsets the risk</span></div>
+<div class="txt" style="position:absolute; left:117px; top:206px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">that the original PCI DSS requirement was designed to defend against. To understand the intent of a requirement, see </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">the Customized</span></div>
+<div class="txt" style="position:absolute; left:117px; top:219px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Approach Objective </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">for most PCI DSS requirements. If a requirement is not eligible for the Customized Approach and therefore does not</span></div>
+<div class="txt" style="position:absolute; left:117px; top:231px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">have a Customized Approach Objective, refer to the </span><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Purpose </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">in the Guidance column for that requirement.</span></div>
+<div class="txt" style="position:absolute; left:99px; top:250px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">3. </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Be “above and beyond” other PCI DSS requirements. (Simply being in compliance with other PCI DSS requirements is not a</span></div>
+<div class="txt" style="position:absolute; left:117px; top:262px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">compensating control.)</span></div>
+<div class="txt" style="position:absolute; left:99px; top:281px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">4. </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">When evaluating “above and beyond” for compensating controls, consider the following:</span></div>
+<div class="txt" style="position:absolute; left:126px; top:300px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">a) </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Existing PCI DSS requirements CANNOT be considered as compensating controls if they are already required for the item under</span></div>
+<div class="txt" style="position:absolute; left:144px; top:312px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">review. For example, passwords for non-console administrative access must be sent</span></div>
+<div class="txt" style="position:absolute; left:144px; top:324px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">encrypted to mitigate the risk of intercepting cleartext administrative passwords. An entity </span><span class="f4" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Note: </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">All compensating controls</span></div>
+<div class="txt" style="position:absolute; left:144px; top:337px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">cannot use other PCI DSS password requirements (intruder lockout, complex passwords, </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">must be reviewed and validated for</span></div>
+<div class="txt" style="position:absolute; left:144px; top:350px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">etc.) to compensate for lack of encrypted passwords, since those other password</span></div>
+<div class="txt" style="position:absolute; left:558px; top:350px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">sufficiency by the assessor who</span></div>
+<div class="txt" style="position:absolute; left:144px; top:362px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">requirements do not mitigate the risk of interception of cleartext passwords. Also, the other </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">conducts the PCI DSS</span></div>
+<div class="txt" style="position:absolute; left:144px; top:376px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">password controls are already PCI DSS requirements for the item under review</span></div>
+<div class="txt" style="position:absolute; left:558px; top:375px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">assessment. The effectiveness of</span></div>
+<div class="txt" style="position:absolute; left:144px; top:388px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">(passwords).</span></div>
+<div class="txt" style="position:absolute; left:558px; top:388px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">a compensating control is</span></div>
+<div class="txt" style="position:absolute; left:126px; top:405px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">b) </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Existing PCI DSS requirements MAY be considered as compensating controls if they are</span></div>
+<div class="txt" style="position:absolute; left:144px; top:418px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">required for another area but are not required for the item under review.</span></div>
+<div class="txt" style="position:absolute; left:126px; top:434px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">c) </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Existing PCI DSS requirements may be combined with new controls to become a</span></div>
+<div class="txt" style="position:absolute; left:144px; top:447px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">compensating control. For example, if a company is unable to address a vulnerability that</span></div>
+<div class="txt" style="position:absolute; left:143px; top:460px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">is exploitable through a network interface because a security update is not yet available</span></div>
+<div class="txt" style="position:absolute; left:143px; top:472px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">from a vendor, a compensating control could consist of controls that include all of the</span></div>
+<div class="txt" style="position:absolute; left:143px; top:485px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">following: 1) internal network segmentation, 2) limiting network access to the vulnerable</span></div>
+<div class="txt" style="position:absolute; left:143px; top:497px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">interface to only required devices (IP address or MAC address filtering), and 3) IDS/IPS</span></div>
+<div class="txt" style="position:absolute; left:558px; top:400px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">dependent on the specifics of the</span></div>
+<div class="txt" style="position:absolute; left:558px; top:413px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">environment in which the control is</span></div>
+<div class="txt" style="position:absolute; left:558px; top:426px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">implemented, the surrounding</span></div>
+<div class="txt" style="position:absolute; left:558px; top:438px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">security controls, and the</span></div>
+<div class="txt" style="position:absolute; left:558px; top:451px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">configuration of the control.</span></div>
+<div class="txt" style="position:absolute; left:558px; top:463px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Entities should be aware that a</span></div>
+<div class="txt" style="position:absolute; left:558px; top:476px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">given compensating control will not</span></div>
+<div class="txt" style="position:absolute; left:558px; top:489px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">be effective in all environments.</span></div>
+<div class="txt" style="position:absolute; left:143px; top:510px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">monitoring of all traffic destined to the vulnerable interface.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:567px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">© 2006 - 2024 PCI Security Standards Council, LLC. All rights reserved.</span></div>
+<div class="txt" style="position:absolute; left:677px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:681px; top:567px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 369</span></div>
+</body>
+</html>

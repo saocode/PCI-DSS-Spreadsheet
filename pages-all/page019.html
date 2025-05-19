@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff6; src: url("6.ttf"); }
+.f3 { font-family:ff6,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff5; src: url("5.ttf"); }
+.f4 { font-family:ff5,sans-serif; font-weight:bold; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f5 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page19.png"">
+<div class="txt" style="position:absolute; left:100px; top:75px;"><span class="f3" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);"> </span><span class="f1" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);">Encrypted cardholder data that is present on a system or media that also contains the decryption key,</span></div>
+<div class="txt" style="position:absolute; left:100px; top:94px;"><span class="f3" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);"> </span><span class="f1" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);">Encrypted cardholder data that is present in the same environment as the decryption key,</span></div>
+<div class="txt" style="position:absolute; left:100px; top:113px;"><span class="f3" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);"> </span><span class="f1" style="font-size:9px;vertical-align:super;color:rgba(0,0,0,1);">Encrypted cardholder data that is accessible to an entity that also has access to the decryption key.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:138px;"><span class="f4" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Note</span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">: A PCI-listed P2PE solution can significantly reduce the number of PCI DSS requirements applicable to a merchant’s cardholder data</span></div>
+<div class="txt" style="position:absolute; left:90px; top:150px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">environment. However, it does not completely remove the applicability of PCI DSS in the merchant environment.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:182px;"><span class="f5" style="font-size:14px;vertical-align:baseline;color:rgba(0,0,0,1);">Encrypted Cardholder Data and Impact to PCI DSS Scope for Third-Party Service Providers</span></div>
+<div class="txt" style="position:absolute; left:90px; top:205px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Where a third-party service provider (TPSP) receives and/or stores only data encrypted by another entity, and where they do not have the</span></div>
+<div class="txt" style="position:absolute; left:90px; top:217px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">ability to decrypt the data, the TPSP may be able to consider the encrypted data out of scope if certain conditions are met. This is because</span></div>
+<div class="txt" style="position:absolute; left:90px; top:230px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">responsibility for the data generally remains with the entity, or entities, with the ability to decrypt the data or impact the security of the</span></div>
+<div class="txt" style="position:absolute; left:90px; top:243px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">encrypted data. Determining which party is responsible for specific PCI DSS controls will depend on several factors, including who has access</span></div>
+<div class="txt" style="position:absolute; left:90px; top:255px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">to the decryption keys, the role performed by each party, and the agreement between parties. Responsibilities should be clearly defined and</span></div>
+<div class="txt" style="position:absolute; left:90px; top:268px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">documented to ensure both the TPSP and the entity providing the encrypted data understand which entity is responsible for which security</span></div>
+<div class="txt" style="position:absolute; left:90px; top:281px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">controls.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:299px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">As an example, a TPSP providing storage services receives and stores encrypted cardholder data provided by customers for back-up</span></div>
+<div class="txt" style="position:absolute; left:90px; top:312px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">purposes. This TPSP does not have access to the encryption or decryption keys, nor does it perform any key management for its customers.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:325px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">The TPSP can exclude any such encrypted data when determining its PCI DSS scope. However, the TPSP does maintain responsibility for</span></div>
+<div class="txt" style="position:absolute; left:90px; top:337px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">controlling access to the encrypted data storage as part of its service agreements with its customers.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:356px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Responsibility for ensuring that the encrypted data and the cryptographic keys are protected according to applicable PCI DSS requirements is</span></div>
+<div class="txt" style="position:absolute; left:90px; top:368px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">often shared between entities. In the above example, the customer determines which of their personnel are authorized to access the storage</span></div>
+<div class="txt" style="position:absolute; left:90px; top:381px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">media, and the storage facility is responsible for managing the physical and/or logical access controls to ensure that only persons authorized</span></div>
+<div class="txt" style="position:absolute; left:90px; top:394px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">by the customer are granted access to the storage media. The specific PCI DSS requirements applicable to a TPSP will depend on the</span></div>
+<div class="txt" style="position:absolute; left:90px; top:406px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">services provided and the agreement between the two parties. In the example of a TPSP providing storage services, the physical and logical</span></div>
+<div class="txt" style="position:absolute; left:90px; top:419px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">access controls provided by the TPSP will need to be reviewed at least annually. This review could be performed as part of the merchant’s</span></div>
+<div class="txt" style="position:absolute; left:90px; top:432px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">PCI DSS assessment or, alternatively, the review could be performed, and controls validated, by the TPSP with appropriate evidence provided</span></div>
+<div class="txt" style="position:absolute; left:90px; top:444px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">to the merchant. For information about “appropriate evidence,” see </span><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,106,113,1);">Options for TPSPs to Validate PCI DSS Compliance for TPSP Services</span></div>
+<div class="txt" style="position:absolute; left:90px; top:457px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,106,113,1);">that Meet Customers’ PCI DSS Requirements.</span></div>
+<div class="txt" style="position:absolute; left:89px; top:476px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">As another example, a TPSP that receives only encrypted cardholder data for the purposes of routing to other entities, and that does not have</span></div>
+<div class="txt" style="position:absolute; left:89px; top:488px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">access to the data or cryptographic keys, may not have any PCI DSS responsibility for that encrypted data. In this scenario, where the TPSP</span></div>
+<div class="txt" style="position:absolute; left:89px; top:501px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">is not providing any security services or access controls, they may be considered the same as a public or untrusted network, and it would be</span></div>
+<div class="txt" style="position:absolute; left:89px; top:514px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">the responsibility of the entity(s) sending/receiving account data through the TPSP’s network to ensure PCI DSS controls are applied to</span></div>
+<div class="txt" style="position:absolute; left:89px; top:526px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">protect the data being transmitted.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:686px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 15</span></div>
+</body>
+</html>

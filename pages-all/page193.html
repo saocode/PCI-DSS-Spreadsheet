@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+.f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff0; src: url("0.ttf"); }
+.f1 { font-family:ff0,sans-serif; font-weight:normal; font-style:normal; }
+@font-face { font-family: ff2; src: url("2.ttf"); }
+.f2 { font-family:ff2,sans-serif; font-weight:normal; font-style:italic; }
+@font-face { font-family: ff1; src: url("1.ttf"); }
+.f3 { font-family:ff1,sans-serif; font-weight:bold; font-style:normal; }
+@font-face { font-family: ff7; src: url("7.ttf"); }
+.f4 { font-family:ff7,sans-serif; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img style="position:absolute; left:0px; top:0px;" width="792" height="612" src="page193.png"">
+<div class="txt" style="position:absolute; left:198px; top:85px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Requirements and Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:591px; top:85px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(255,255,255,1);">Guidance</span></div>
+<div class="txt" style="position:absolute; left:78px; top:111px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Requirements</span></div>
+<div class="txt" style="position:absolute; left:78px; top:133px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">8.3.4 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Invalid authentication attempts are limited by:</span></div>
+<div class="txt" style="position:absolute; left:78px; top:148px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Locking out the user ID after not more than 10</span></div>
+<div class="txt" style="position:absolute; left:92px; top:159px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">attempts.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:174px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Setting the lockout duration to a minimum of 30</span></div>
+<div class="txt" style="position:absolute; left:92px; top:185px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">minutes or until the user’s identity is confirmed.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:214px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Customized Approach Objective</span></div>
+<div class="txt" style="position:absolute; left:78px; top:237px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">An authentication factor cannot be guessed in a</span></div>
+<div class="txt" style="position:absolute; left:78px; top:249px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">brute force, online attack.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:271px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Applicability Notes</span></div>
+<div class="txt" style="position:absolute; left:78px; top:294px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">This requirement is not intended to apply to user</span></div>
+<div class="txt" style="position:absolute; left:78px; top:305px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">accounts on point-of-sale terminals that have</span></div>
+<div class="txt" style="position:absolute; left:78px; top:317px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">access to only one card number at a time to</span></div>
+<div class="txt" style="position:absolute; left:78px; top:328px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">facilitate a single transaction.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:111px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:298px; top:133px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">8.3.4.a </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine system configuration settings to</span></div>
+<div class="txt" style="position:absolute; left:298px; top:145px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">verify that authentication parameters are set to</span></div>
+<div class="txt" style="position:absolute; left:298px; top:156px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">require that user accounts be locked out after not</span></div>
+<div class="txt" style="position:absolute; left:298px; top:168px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">more than 10 invalid logon attempts.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:191px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">8.3.4.b </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine system configuration settings to</span></div>
+<div class="txt" style="position:absolute; left:298px; top:203px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">verify that password parameters are set to require</span></div>
+<div class="txt" style="position:absolute; left:298px; top:214px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">that once a user account is locked out, it remains</span></div>
+<div class="txt" style="position:absolute; left:298px; top:226px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">locked for a minimum of 30 minutes or until the</span></div>
+<div class="txt" style="position:absolute; left:298px; top:237px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">user’s identity is confirmed.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:112px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Purpose</span></div>
+<div class="txt" style="position:absolute; left:514px; top:126px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Without account-lockout mechanisms in place, an</span></div>
+<div class="txt" style="position:absolute; left:514px; top:137px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">attacker can continually try to guess a password</span></div>
+<div class="txt" style="position:absolute; left:514px; top:149px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">through manual or automated tools (for example,</span></div>
+<div class="txt" style="position:absolute; left:514px; top:160px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">password cracking) until the attacker succeeds</span></div>
+<div class="txt" style="position:absolute; left:514px; top:172px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">and gains access to a user’s account.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:186px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">If an account is locked out due to someone</span></div>
+<div class="txt" style="position:absolute; left:514px; top:197px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">continually trying to guess a password, controls to</span></div>
+<div class="txt" style="position:absolute; left:514px; top:209px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">delay reactivation of the locked account stop the</span></div>
+<div class="txt" style="position:absolute; left:514px; top:220px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">malicious individual from guessing the password,</span></div>
+<div class="txt" style="position:absolute; left:514px; top:232px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">as they will have to stop for a minimum of 30</span></div>
+<div class="txt" style="position:absolute; left:514px; top:243px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">minutes until the account is reactivated.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:257px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Good Practice</span></div>
+<div class="txt" style="position:absolute; left:514px; top:272px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Before reactivating a locked account, the user’s</span></div>
+<div class="txt" style="position:absolute; left:514px; top:283px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">identity should be confirmed. For example, the</span></div>
+<div class="txt" style="position:absolute; left:514px; top:294px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">administrator or help desk personnel can validate</span></div>
+<div class="txt" style="position:absolute; left:514px; top:306px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">that the actual account owner is requesting</span></div>
+<div class="txt" style="position:absolute; left:514px; top:317px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">reactivation, or there may be password reset self-</span></div>
+<div class="txt" style="position:absolute; left:514px; top:329px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">service mechanisms that the account owner uses</span></div>
+<div class="txt" style="position:absolute; left:514px; top:340px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">to verify their identity.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:363px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Requirements</span></div>
+<div class="txt" style="position:absolute; left:78px; top:385px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">8.3.5 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">If passwords/passphrases are used as</span></div>
+<div class="txt" style="position:absolute; left:78px; top:397px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">authentication factors to meet Requirement 8.3.1,</span></div>
+<div class="txt" style="position:absolute; left:77px; top:408px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">they are set and reset for each user as follows:</span></div>
+<div class="txt" style="position:absolute; left:78px; top:423px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Set to a unique value for first-time use and upon</span></div>
+<div class="txt" style="position:absolute; left:92px; top:434px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">reset.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:448px;"><span class="f4" style="font-size:8px;vertical-align:baseline;color:rgba(0,0,0,1);">• </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Forced to be changed immediately after the first</span></div>
+<div class="txt" style="position:absolute; left:92px; top:460px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">use.</span></div>
+<div class="txt" style="position:absolute; left:298px; top:363px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Defined Approach Testing Procedures</span></div>
+<div class="txt" style="position:absolute; left:298px; top:385px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">8.3.5 </span><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Examine procedures for setting and resetting</span></div>
+<div class="txt" style="position:absolute; left:298px; top:397px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">passwords/passphrases (if used as authentication</span></div>
+<div class="txt" style="position:absolute; left:298px; top:408px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">factors to meet Requirement 8.3.1) and observe</span></div>
+<div class="txt" style="position:absolute; left:298px; top:420px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">security personnel to verify that</span></div>
+<div class="txt" style="position:absolute; left:298px; top:431px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">passwords/passphrases are set and reset in</span></div>
+<div class="txt" style="position:absolute; left:298px; top:442px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">accordance with all elements specified in this</span></div>
+<div class="txt" style="position:absolute; left:298px; top:454px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">requirement.</span></div>
+<div class="txt" style="position:absolute; left:514px; top:364px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Purpose</span></div>
+<div class="txt" style="position:absolute; left:514px; top:378px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">If the same password/passphrase is used for</span></div>
+<div class="txt" style="position:absolute; left:514px; top:389px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">every new user, an internal user, former</span></div>
+<div class="txt" style="position:absolute; left:514px; top:401px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">employee, or malicious individual may know or</span></div>
+<div class="txt" style="position:absolute; left:514px; top:412px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">easily discover the value and use it to gain access</span></div>
+<div class="txt" style="position:absolute; left:514px; top:424px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">to accounts before the authorized user attempts</span></div>
+<div class="txt" style="position:absolute; left:514px; top:435px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">to use the password.</span></div>
+<div class="txt" style="position:absolute; left:78px; top:483px;"><span class="f3" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Customized Approach Objective</span></div>
+<div class="txt" style="position:absolute; left:78px; top:506px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">An initial or reset password/passphrase assigned to</span></div>
+<div class="txt" style="position:absolute; left:78px; top:517px;"><span class="f1" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">a user cannot be used by an unauthorized user.</span></div>
+<div class="txt" style="position:absolute; left:72px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1</span></div>
+<div class="txt" style="position:absolute; left:72px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.</span></div>
+<div class="txt" style="position:absolute; left:678px; top:544px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">June 2024</span></div>
+<div class="txt" style="position:absolute; left:681px; top:555px;"><span class="f2" style="font-size:9px;vertical-align:baseline;color:rgba(0,0,0,1);">Page 189</span></div>
+</body>
+</html>
